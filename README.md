@@ -201,7 +201,7 @@ The system is designed so that cloud connectivity enhances observation but does 
 ## Deployed Setup — SPROUT in Use
 
 <p align="center">
-  <img src="./media/components/sprout.jpg" alt="SPROUT Final Setup" width="600">
+  <img src="media/components/sprout.png" alt="SPROUT Final Setup" width="600">
 </p>
 
 <p align="center">
@@ -210,6 +210,7 @@ The system is designed so that cloud connectivity enhances observation but does 
 
 This setup shows how the system is positioned close to the plant to monitor conditions and respond to disturbances.  
 The focus is on practical placement and functionality rather than a lab-style arrangement.
+
 
 
 
