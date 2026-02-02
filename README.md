@@ -98,13 +98,14 @@ Before running the project:
 
 ## Folder Structure
 
+```text
 sprout-smart-plant-monitor/
 ├── firmware/
 │ └── sprout.ino
 ├── media/
 │ └── (images and demo videos)
 └── README.md
-
+```
 ---
 
 ## Future Improvements
@@ -120,3 +121,4 @@ sprout-smart-plant-monitor/
 ## Project Status
 
 This project is a working prototype built for learning, experimentation, and real-world understanding of IoT systems.
+
