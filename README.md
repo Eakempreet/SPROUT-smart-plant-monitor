@@ -51,3 +51,28 @@ SPROUT follows a simple and repeatable workflow designed for reliability.
 This workflow allows the system to react immediately to local conditions while also supporting remote monitoring and future analysis.
 
 
+## Hardware Components
+
+SPROUT is built using commonly available, low-cost components to keep the system accessible and easy to replicate.
+
+### Controller
+- Arduino Uno (used for simulation and wiring validation)
+- NodeMCU ESP8266 (intended deployment hardware)
+
+### Sensors
+- Soil Moisture Sensor (analogue)
+- Temperature Sensor (TMP36 used in simulation)
+- IR Motion Sensor
+
+### Actuators & Indicators
+- Servo Motor (used for physical response)
+- Buzzer (audio alert)
+- LED with resistor (visual indication)
+
+### Supporting Components
+- Breadboard
+- Jumper wires
+- USB power source
+
+
+
