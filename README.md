@@ -29,6 +29,13 @@ At a high level, the system:
 When soil moisture drops below a set threshold, the system provides a visual indication.  
 When motion is detected near the plant, the system triggers a basic protective response.
 
+In addition to local responses, the system is designed to send sensor data to a cloud platform (ThingSpeak) for remote monitoring.  
+This data can be viewed through dashboards or a simple Android application, allowing plant conditions to be observed without being physically present.
+
+Local decision-making ensures the system remains responsive, while cloud integration enables observation and future expansion.
+
+
 All decisions are made locally on the device, keeping the system simple, responsive, and independent of constant network availability.
+
 
 
