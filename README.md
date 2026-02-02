@@ -119,3 +119,28 @@ They are grouped by role to keep the section readable and visually balanced.
 | Jumper Wires | ![Jumper Wires](media/components/jumper-wires.jpg) |
 | USB Cable | ![USB Cable](media/components/usb-cable.jpg) |
 
+
+## Wiring Diagram & Simulation Notes
+
+The wiring diagram below represents the validated hardware connections used during simulation.
+
+![Wiring Diagram](media/wiring-diagram.png)
+
+### Important Notes
+
+- The wiring diagram was created and tested using **Arduino Uno in Tinkercad** for ease of simulation and validation.
+- The **actual hardware implementation uses NodeMCU ESP8266**.
+- Pin numbers differ between Arduino Uno and NodeMCU, but the **logical connections remain the same**.
+- This approach allows reliable testing in simulation while keeping the final deployment flexible.
+
+The diagram focuses on clarity and correctness rather than physical enclosure or layout aesthetics.
+
+
+
+
+
+
+
+
+
+
