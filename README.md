@@ -165,8 +165,51 @@ Earlier experimental iterations are intentionally excluded to keep the codebase 
 
 
 
+## Cloud & Android App Integration
+
+SPROUT supports remote monitoring through cloud connectivity using **ThingSpeak**.
+
+Sensor data from the system is uploaded to ThingSpeak, where it is stored and visualized through dashboards. This allows plant conditions to be observed remotely without being physically present near the setup.
+
+To make monitoring more accessible on mobile devices, the data can also be viewed using the **ThinkView Android application**, which reads data directly from ThingSpeak channels and displays it in a user-friendly format.
+
+The system is designed so that cloud connectivity enhances observation but does not control core behavior. Local monitoring and responses continue to function independently.
+
+---
+
+### Using ThingSpeak with SPROUT (High-Level Steps)
+
+1. Create a ThingSpeak account at https://thingspeak.com  
+2. Create a new channel and enable the required fields (soil moisture, temperature, motion, etc.)
+3. Copy the **Write API Key** generated for the channel
+4. Add the API key to the firmware before uploading it to the device
+5. Upload the firmware and power the system
+6. Observe live data updates on the ThingSpeak dashboard
+
+---
+
+### Viewing Data on Android (ThinkView App)
+
+1. Install **ThinkView** from the Google Play Store
+2. Open the app and choose ThingSpeak as the data source
+3. Enter the Channel ID and Read API Key
+4. Select the fields to display
+5. Monitor sensor values directly from the Android device
 
 
+
+## Deployed Setup — SPROUT in Use
+
+<p align="center">
+  <img src="media/sprout.jpg" alt="SPROUT Final Setup" width="600">
+</p>
+
+<p align="center">
+  <em>SPROUT deployed near a plant in its intended real-world environment</em>
+</p>
+
+This setup shows how the system is positioned close to the plant to monitor conditions and respond to disturbances.  
+The focus is on practical placement and functionality rather than a lab-style arrangement.
 
 
 
