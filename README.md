@@ -60,7 +60,7 @@ SPROUT is built using commonly available, low-cost components to keep the system
 - NodeMCU ESP8266 (intended deployment hardware)
 
 ### Sensors
-- Soil Moisture Sensor (analogue)
+- Soil Moisture Sensor (analog)
 - Temperature Sensor (TMP36 used in simulation)
 - IR Motion Sensor
 
@@ -75,4 +75,47 @@ SPROUT is built using commonly available, low-cost components to keep the system
 - USB power source
 
 
+## Hardware Components (Visual Reference)
+
+Below are the actual components used in the SPROUT system.  
+They are grouped by role to keep the section readable and visually balanced.
+
+---
+
+### Controller
+
+| Component | Preview |
+|---------|--------|
+| NodeMCU ESP8266 | ![NodeMCU](media/components/nodemcu.jpg) |
+
+---
+
+### Sensors
+
+| Component | Preview |
+|---------|--------|
+| Soil Moisture Sensor | ![Soil Moisture](media/components/soil-moisture-sensor.jpg) |
+| IR Motion Sensor | ![IR Sensor](media/components/ir-sensor.jpg) |
+| DHT11 Sensor | ![DHT11](media/components/dht11.jpg) |
+
+---
+
+### Actuators & Indicators
+
+| Component | Preview |
+|---------|--------|
+| Servo Motor | ![Servo Motor](media/components/servo-motor.jpg) |
+| Buzzer | ![Buzzer](media/components/buzzer.jpg) |
+| LED | ![LED](media/components/led.jpg) |
+| Resistor (220Ω) | ![Resistor](media/components/Resistor%20(for%20LED,%20typically%20220Ω).jpg) |
+
+---
+
+### Supporting Components
+
+| Component | Preview |
+|---------|--------|
+| Breadboard | ![Breadboard](media/components/breadboard.jpg) |
+| Jumper Wires | ![Jumper Wires](media/components/jumper-wires.jpg) |
+| USB Cable | ![USB Cable](media/components/usb-cable.jpg) |
 
