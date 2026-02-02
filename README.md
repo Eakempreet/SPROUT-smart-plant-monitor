@@ -137,6 +137,39 @@ The diagram focuses on clarity and correctness rather than physical enclosure or
 
 
 
+## Firmware Structure & Behavior
+
+The firmware is responsible for reading sensor data, applying simple decision logic, and controlling actuators based on real-world conditions.
+
+### Core Responsibilities
+
+- Read soil moisture, temperature, and motion sensor values
+- Compare sensor readings against predefined thresholds
+- Trigger local responses such as LED indication, buzzer alert, and servo movement
+- Send sensor data to the cloud platform for remote monitoring
+
+### Design Approach
+
+The firmware is intentionally kept:
+- modular and readable
+- focused on reliability over complexity
+- easy to extend with additional features
+
+Local decision-making ensures immediate response even if network connectivity is unavailable, while cloud integration enables observation and future analysis.
+
+### Firmware Location
+
+
+The repository contains the **current stable version** of the firmware.  
+Earlier experimental iterations are intentionally excluded to keep the codebase clean and understandable.
+
+
+
+
+
+
+
+
 
 
 
