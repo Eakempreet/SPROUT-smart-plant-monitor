@@ -4,6 +4,21 @@ SPROUT is a small IoT-based system designed to monitor plant conditions and prov
 
 The project focuses on building a simple, reliable system that reacts to real-world conditions rather than theoretical scenarios.
 
+---
+
+## Project at a Glance
+
+| Category | Details |
+|--------|---------|
+| Problem | Plants damaged by environmental neglect and small animals |
+| Solution | Local monitoring with basic protection and cloud visibility |
+| Core Functions | Soil moisture sensing, motion detection, local alerts |
+| Hardware | NodeMCU ESP8266, sensors, actuators |
+| Cloud | ThingSpeak |
+| Mobile App | ThinkView (Android) |
+| Status | Validated prototype |
+
+---
 
 ## Motivation
 
@@ -15,6 +30,7 @@ SPROUT was built to act as a simple monitoring and protection layer. Instead of 
 
 The aim was not to eliminate the problem completely, but to reduce unnoticed damage through timely awareness and basic deterrence.
 
+---
 
 ## What the System Does
 
@@ -37,6 +53,7 @@ Local decision-making ensures the system remains responsive, while cloud integra
 
 All decisions are made locally on the device, keeping the system simple, responsive, and independent of constant network availability.
 
+---
 
 ## System Workflow
 
@@ -50,6 +67,7 @@ SPROUT follows a simple and repeatable workflow designed for reliability.
 
 This workflow allows the system to react immediately to local conditions while also supporting remote monitoring and future analysis.
 
+---
 
 ## Hardware Components
 
@@ -74,6 +92,7 @@ SPROUT is built using commonly available, low-cost components to keep the system
 - Jumper wires
 - USB power source
 
+---
 
 ## Hardware Components (Visual Reference)
 
@@ -119,6 +138,7 @@ They are grouped by role to keep the section readable and visually balanced.
 | Jumper Wires | ![Jumper Wires](media/components/jumper-wires.jpg) |
 | USB Cable | ![USB Cable](media/components/usb-cable.jpg) |
 
+---
 
 ## Wiring Diagram & Simulation Notes
 
@@ -135,11 +155,13 @@ The wiring diagram below represents the validated hardware connections used duri
 
 The diagram focuses on clarity and correctness rather than physical enclosure or layout aesthetics.
 
-
+---
 
 ## Firmware Structure & Behavior
 
 The firmware is responsible for reading sensor data, applying simple decision logic, and controlling actuators based on real-world conditions.
+
+---
 
 ### Core Responsibilities
 
@@ -147,6 +169,8 @@ The firmware is responsible for reading sensor data, applying simple decision lo
 - Compare sensor readings against predefined thresholds
 - Trigger local responses such as LED indication, buzzer alert, and servo movement
 - Send sensor data to the cloud platform for remote monitoring
+
+---
 
 ### Design Approach
 
@@ -157,13 +181,15 @@ The firmware is intentionally kept:
 
 Local decision-making ensures immediate response even if network connectivity is unavailable, while cloud integration enables observation and future analysis.
 
+---
+
 ### Firmware Location
 
 
 The repository contains the **current stable version** of the firmware.  
 Earlier experimental iterations are intentionally excluded to keep the codebase clean and understandable.
 
-
+---
 
 ## Cloud & Android App Integration
 
@@ -211,6 +237,10 @@ The system is designed so that cloud connectivity enhances observation but does 
 
 This setup shows how the system is positioned close to the plant to monitor conditions and respond to disturbances.  
 The focus is on practical placement and functionality rather than a lab-style arrangement.
+
+---
+
+*This project reflects an effort to observe a real problem, build a practical solution, and document the system clearly as it evolved.*
 
 
 
