@@ -24,7 +24,7 @@ The project focuses on building a simple, reliable system that reacts to real-wo
 
 The motivation for building SPROUT came from observing a recurring real-world problem.
 
-Plants in open or semi-open environments are often damaged by small animals such as monkeys or squirrels. These animals disturb the soil, damage roots, or break stems—usually when no one is around to notice it in time.
+Plants in open or semi-open environments are often damaged by small animals such as monkeys or squirrels. These animals disturb the soil, damage roots, or break stems usually when no one is around to notice it in time.
 
 SPROUT was built to act as a simple monitoring and protection layer. Instead of relying on constant human supervision, the system observes key conditions around a plant and responds locally when unusual activity is detected.
 
@@ -241,6 +241,7 @@ The focus is on practical placement and functionality rather than a lab-style ar
 ---
 
 *This project reflects an effort to observe a real problem, build a practical solution, and document the system clearly as it evolved.*
+
 
 
 
