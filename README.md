@@ -38,4 +38,16 @@ Local decision-making ensures the system remains responsive, while cloud integra
 All decisions are made locally on the device, keeping the system simple, responsive, and independent of constant network availability.
 
 
+## System Workflow
+
+SPROUT follows a simple and repeatable workflow designed for reliability.
+
+1. The system continuously reads data from the connected sensors, including soil moisture, temperature, and motion.
+2. Sensor values are processed locally and compared against predefined thresholds.
+3. If soil moisture falls below the threshold, the system provides a visual alert to indicate that attention is required.
+4. If motion is detected near the plant, the system triggers a basic protective response using actuators.
+5. Sensor readings are periodically sent to the cloud platform for remote observation and record keeping.
+
+This workflow allows the system to react immediately to local conditions while also supporting remote monitoring and future analysis.
+
 
